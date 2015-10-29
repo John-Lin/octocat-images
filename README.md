@@ -2,7 +2,7 @@
 
 Get orSave image from [octodex.gituhb.com](octodex.gituhb.com).
 
-![droctocat](./img/droctocat.png)
+![droctocat](./img/droctocat.png?raw=true "droctocat")
 
 ## Example Usage
 
