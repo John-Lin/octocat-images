@@ -1,6 +1,6 @@
 # octocat-images [![Build Status](https://travis-ci.org/John-Lin/octocat-images.svg?branch=master)](https://travis-ci.org/John-Lin/octocat-images)
 
-Get orSave image from [octodex.gituhb.com](octodex.gituhb.com).
+Get or save image from [octodex.gituhb.com](octodex.gituhb.com).
 
 ![droctocat](./img/droctocat.png?raw=true "droctocat")
 
