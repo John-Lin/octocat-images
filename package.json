@@ -1,6 +1,6 @@
 {
   "name": "octocat-images",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get octocat images name, url and even download images",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,6 @@
   ],
   "author": "John-Lin <linton.tw@gmail.com> (http://linton.tw)",
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/John-Lin/octocat-images.git"
