@@ -4,7 +4,7 @@
 
 ```javascript
 'use strict';
-let OctoCatCrawler = require('./lib/octocat-crawler.js');
+let OctoCatCrawler = require('octocat-images');
 let crawler = new OctoCatCrawler();
 
 crawler.list((err, octocats) => {
