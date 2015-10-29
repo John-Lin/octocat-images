@@ -2,12 +2,11 @@
 [![npm version](https://badge.fury.io/js/octocat-images.svg)](https://badge.fury.io/js/octocat-images)
 [![Build Status](https://travis-ci.org/John-Lin/octocat-images.svg?branch=master)](https://travis-ci.org/John-Lin/octocat-images)
 
-Get or save image from [octodex.gituhb.com](octodex.gituhb.com).
-
+:octocat: Get or save octocat image from [octodex.gituhb.com](octodex.gituhb.com)
 
 ![droctocat](./img/droctocat.png?raw=true "droctocat")
 
-## install
+## Install
 
 With [npm](https://www.npmjs.com/) do:
 
@@ -27,14 +26,14 @@ let crawler = new OctoCatCrawler();
 crawler.list((err, octocats) => {
   if (err) throw err;
   for (let octocat of octocats) {
-    console.log(octocat.url, octocat.name);
+    console.log(octocat.number, octocat.name, octocat.url);
     octocat.save('images');
   }
 });
 
 // Give you a random choice of octocat image
 crawler.choice((err, octocat) => {
-  console.log(octocat.url, octocat.name);
+  console.log(octocat.number, octocat.name, octocat.url);
   octocat.save('images');
 });
 ```
