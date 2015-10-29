@@ -1,4 +1,6 @@
-# octocat-images [![Build Status](https://travis-ci.org/John-Lin/octocat-images.svg?branch=master)](https://travis-ci.org/John-Lin/octocat-images)
+# octocat-images
+[![npm version](https://badge.fury.io/js/octocat-images.svg)](https://badge.fury.io/js/octocat-images)
+[![Build Status](https://travis-ci.org/John-Lin/octocat-images.svg?branch=master)](https://travis-ci.org/John-Lin/octocat-images)
 
 Get or save image from [octodex.gituhb.com](octodex.gituhb.com).
 
