@@ -1,5 +1,5 @@
 # octocat-images
-
+[![Build Status](https://travis-ci.org/John-Lin/octocat-images.svg?branch=master)](https://travis-ci.org/John-Lin/octocat-images)
 ## Example Usage
 
 ```javascript
