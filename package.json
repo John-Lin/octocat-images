@@ -1,0 +1,33 @@
+{
+  "name": "octocat-images",
+  "version": "0.1.0",
+  "description": "Get octocat images name, url and even download images",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp spec"
+  },
+  "homepage": "https://github.com/John-Lin/octocat-images#readme",
+  "keywords": [
+    "octodex",
+    "octocat",
+    "github"
+  ],
+  "author": "John-Lin <linton.tw@gmail.com> (http://linton.tw)",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Lin/octocat-images.git"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
+}
