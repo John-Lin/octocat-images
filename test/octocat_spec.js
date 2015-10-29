@@ -15,6 +15,7 @@ describe('OctoCatCrawler', function() {
         for (let item of items) {
           item.should.have.property('name');
           item.should.have.property('url');
+          item.should.have.property('number');
         }
 
         items.should.have.length(123);
@@ -32,6 +33,7 @@ describe('OctoCatCrawler', function() {
         if (err) throw err;
         items.should.have.property('name');
         items.should.have.property('url');
+        items.should.have.property('number');
         done();
       });
 
@@ -45,6 +47,7 @@ describe('OctoCat', function() {
     it('should save image without error', function() {
       let filename = 'nyantocat.gif';
       let octocat = new OctoCat(
+        '#47',
         'the Nyantocat',
         `http://octodex.gitub.com/images/${filename}`
       );
