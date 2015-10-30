@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/octocat-images.svg)](https://badge.fury.io/js/octocat-images)
 [![Build Status](https://travis-ci.org/John-Lin/octocat-images.svg?branch=master)](https://travis-ci.org/John-Lin/octocat-images)
 
-:octocat: Get or save octocat image from [octodex.gituhb.com](octodex.gituhb.com)
+:octocat: Get octocat images name, number, url and even download images from [octodex.gituhb.com](octodex.gituhb.com)
 
 ![droctocat](./img/droctocat.png?raw=true "droctocat")
 
@@ -53,5 +53,5 @@ Return a random choice of octocat instance.
 ### octocat.save(dir)
 Save the images. The images directory `dir` is required.
 
-## license
-MIT
+## License
+MIT © [Che-Wei Lin](https://github.com/John-Lin)
