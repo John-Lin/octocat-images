@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/octocat-images.svg)](https://badge.fury.io/js/octocat-images)
 [![Build Status](https://travis-ci.org/John-Lin/octocat-images.svg?branch=master)](https://travis-ci.org/John-Lin/octocat-images)
 
-:octocat: Get octocat images name, number, url and even download images from [octodex.gituhb.com](octodex.gituhb.com)
+:octocat: Get octocat images name, number, url and even download images from [https://octodex.github.com/](https://octodex.github.com/)
 
 ![droctocat](./img/droctocat.png?raw=true "droctocat")
 
